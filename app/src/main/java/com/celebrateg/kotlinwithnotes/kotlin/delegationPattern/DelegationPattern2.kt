@@ -20,15 +20,15 @@ class Example {
 /**
  * 属性的委托不必实现任何的接口，
  * 但是需要提供一个 getValue() 函数
- * 即将访问器的逻辑委托给一个辅助对象
  * (与 setValue()函数——对于 var 属性)
+ * 即将访问器的逻辑委托给一个辅助对象
  * 两函数都需要用 operator 关键字来进行标记
  */
 class Delegate{
     /**
      * thisRef 必须与属性所有者类型（对于扩展属性——指被扩展的类型）相同
-     * 或者是它的超类型
-     * property 必须是类型 KProperty<*> 或其超类型
+     * 或者是它的超类型（可以理解为接受属性的实例）
+     * property 必须是类型 KProperty<*> 或其超类型（可以理解为属性本身）
      * 函数必须返回与属性相同的类型（或其子类型）
      */
     operator fun getValue(thisRef : Any?,property : KProperty<*>):String{

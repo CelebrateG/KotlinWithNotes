@@ -24,6 +24,7 @@ fun reflect1(){
     var kclass2 = player1::class
     println(kclass.simpleName)
     kclass.memberProperties.forEach{ println(it.name)}
+    kclass2.memberProperties.forEach{ println(it.name)}
 }
 
 fun foo(x:Int){

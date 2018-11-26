@@ -3,7 +3,7 @@ package com.example.issuser.myapplication.kotlin.delegationPattern
 /**
  * @Author CelebrateG
  * @Description 委托模式:操作的对象不用自己执行，而是把工作委托给另一个辅助对象
- * kotlin 通过 by 关键字将接口实现委托给另一个对象
+ * 类委托，kotlin 通过 by 关键字将接口实现委托给另一个对象
  * @Date  2018/10/26
  */
 

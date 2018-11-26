@@ -25,6 +25,9 @@ fun testStr() {
 
 /**
  * NULL检查机制
+ * 如：String 和 String？是两种不同的类型。
+ * String 已经确定是不会为空，一定有值；
+ * 而 String？则是未知的，也许有值，也许是空
  */
 fun testNull(str: String?) {
     //类型后加?表示可以为null
@@ -33,7 +36,7 @@ fun testNull(str: String?) {
 }
 
 fun testNull2(str: String?) {
-    //抛出空指针异常
+    //为 null 时抛出空指针异常
     val age1 = str!!.toInt()
     println("age1:$age1")
 }
