@@ -5,6 +5,8 @@
 进行了相关总结，欢迎大家一起研究学习。      
 
 #### 项目地址：[https://github.com/CelebrateG/KotlinWithNotes](https://github.com/CelebrateG/KotlinWithNotes)
+[简书地址](https://www.jianshu.com/p/6ee087101436)    
+[掘金地址](https://juejin.im/post/5bf7c4e46fb9a049a62c3980)
 #### 包结构：    
 基本按照 [Kotlin 语言中文站](http://www.kotlincn.net/docs/reference/)目录划分，建议可以先从 grammer 目录基本语法开始看起。
 ![image](https://note.youdao.com/yws/public/resource/81a06b7037788be3ab2c09c8d40c6e92/xmlnote/558BFDFC743143E4A65814ED2E4A7934/5987)      
@@ -18,6 +20,3 @@ implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
 androidTestImplementation "org.jetbrains.kotlin:kotlin-test:$kotlin_version"
 implementation 'org.jetbrains.exposed:exposed:0.11.2'
 ```
-#### About Me
-
-###### 掘金: https://juejin.im/user/59fae5495188253bd85cb704
