@@ -5,6 +5,7 @@
 进行了相关总结，欢迎大家一起研究学习。      
 
 #### 项目地址：[https://github.com/CelebrateG/KotlinWithNotes](https://github.com/CelebrateG/KotlinWithNotes)
+[简书地址](https://www.jianshu.com/p/6ee087101436)
 #### 包结构：    
 基本按照 [Kotlin 语言中文站](http://www.kotlincn.net/docs/reference/)目录划分，建议可以先从 grammer 目录基本语法开始看起。
 ![image](https://note.youdao.com/yws/public/resource/81a06b7037788be3ab2c09c8d40c6e92/xmlnote/558BFDFC743143E4A65814ED2E4A7934/5987)      
