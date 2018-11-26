@@ -20,6 +20,3 @@ implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
 androidTestImplementation "org.jetbrains.kotlin:kotlin-test:$kotlin_version"
 implementation 'org.jetbrains.exposed:exposed:0.11.2'
 ```
-#### About Me
-
-###### 掘金: https://juejin.im/user/59fae5495188253bd85cb704
