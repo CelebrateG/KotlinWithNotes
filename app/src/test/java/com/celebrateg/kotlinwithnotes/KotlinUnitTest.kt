@@ -1,5 +1,6 @@
 package com.example.issuser.myapplication
 
+import com.celebrateg.kotlinwithnotes.kotlin.grammer.*
 import com.example.issuser.myapplication.kotlin.annotation.TEST_TIMEOUT
 import com.example.issuser.myapplication.kotlin.annotation.remove
 import com.example.issuser.myapplication.kotlin.annotation.removeAt
@@ -166,6 +167,18 @@ class KotlinUnitTest {
         example7()
     }
 
+
+    /**
+     * Grammer4测试
+     */
+    @Test
+    fun grammer4() {
+        UseApply()
+        UseLet()
+        UseWith()
+        UseRun()
+        UseAlso()
+    }
 
     /**
      * Lambda1 测试
