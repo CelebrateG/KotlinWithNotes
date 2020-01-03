@@ -9,6 +9,11 @@ class Player(val firstName:String ,val lastName:String):Comparable<Player>{
     override fun compareTo(other: Player): Int {
         return compareValuesBy(this,other,Player::firstName,Player::lastName)
     }
+
+    override fun toString(): String {
+        return "Player(firstName='$firstName', lastName='$lastName')"
+    }
+
 }
 
 fun compare(){
